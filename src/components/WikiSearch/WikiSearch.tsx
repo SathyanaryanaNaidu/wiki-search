@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBox from "@/ui/SearchBox";
 import wikiSearchStyles from "./WikiSearch.style";
+import { HEADING, SUBTITLE } from "@/src/constants/labels";
 
 type WikiSearchProps = {
   searchTerm: string;
@@ -16,8 +17,8 @@ const WikiSearch = ({
   return (
     <div className="wrapper">
       <div className="header">
-        <h1> WIKIPEDIA </h1>
-        <span>The Free Encyclopedia</span>
+        <h1> {HEADING} </h1>
+        <span> {SUBTITLE} </span>
       </div>
 
       <SearchBox

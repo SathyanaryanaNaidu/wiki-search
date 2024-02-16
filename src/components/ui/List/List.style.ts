@@ -7,12 +7,7 @@ const listStyles = css`
     flex-direction: column;
     border: 1px solid #eee;
     border-radius: 8px;
-    padding: 4px 8px;
-
-    h3 {
-      text-transform: uppercase;
-      font-weight: 700;
-    }
+    padding: 16px;
   }
 
   .list {

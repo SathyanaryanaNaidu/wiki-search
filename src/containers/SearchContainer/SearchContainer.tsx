@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import useDebounce from "@/hooks/useDebounce";
 import useWikiSearch from "@/hooks/useWikiSearch";
 import WikiSearch from "@/components/WikiSearch";
-import searchContainerStyles from "./SearchWikiContainer.style";
+import searchContainerStyles from "./SearchContainer.style";
 import WikiList from "@/components/WikiList";
 import { Bars } from "react-loader-spinner";
 
-const SearchWikiContainer = () => {
+const SearchContainer = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const { wikiList, handleSearch, setWikiList, isLoading } = useWikiSearch();
   const { debounce } = useDebounce();
@@ -52,4 +52,4 @@ const SearchWikiContainer = () => {
   );
 };
 
-export default SearchWikiContainer;
+export default SearchContainer;

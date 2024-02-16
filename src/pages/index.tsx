@@ -1,6 +1,6 @@
 import Head from "next/head";
-import SearchWikiContainer from "@/src/containers/SearchWikiContainer";
+import SearchContainer from "@/src/containers/SearchContainer";
 
 export default function Home() {
-  return <SearchWikiContainer />;
+  return <SearchContainer />;
 }
