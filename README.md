@@ -18,11 +18,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/wiki?search={searchterm}](http://localhost:3000/api/wiki). This endpoint can be edited in `pages/api/wiki.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Folder Structure
+
+1. Pages : It will handle all the NextJs Routing
+2. Container : Container holds the main business logics for particular page, where all state and API calling happens
+3. Components : Reusable small presentational components
+4. Constants: it can contain labels, api endpoints etc
+5. Types : all type definitions can be accomodated here
 
 ## Learn More
 
