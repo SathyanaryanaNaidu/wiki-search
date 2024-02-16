@@ -20,7 +20,8 @@
     "react-dom": "^18",
     "react-loader-spinner": "^6.1.6",
     "styled-jsx": "^5.1.2",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",

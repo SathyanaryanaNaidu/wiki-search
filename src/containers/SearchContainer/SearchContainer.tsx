@@ -33,7 +33,7 @@ const SearchContainer = () => {
       />
 
       {isLoading && (
-        <div className="loader">
+        <div className="loader" data-testid="loader">
           <Bars
             height="80"
             width="80"

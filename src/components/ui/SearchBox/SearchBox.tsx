@@ -22,9 +22,13 @@ const SearchBox = ({
         value={value}
         onChange={handleInputChange}
         placeholder={SEARCH_BOX_PLACEHOLDER}
+        data-testid="search-input"
       />
       {value && value.length > 0 && (
-        <button onClick={handleClearInput}> {SEARCH_BOX_CLEAR_BUTTON} </button>
+        <button data-testid="clear-button" onClick={handleClearInput}>
+          {" "}
+          {SEARCH_BOX_CLEAR_BUTTON}{" "}
+        </button>
       )}
       <style jsx>{searchBoxStyles}</style>
     </div>

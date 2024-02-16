@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders searchBox unchanged 1`] = `
+<div>
+  <div
+    class="jsx-afdd1919b9d522ba search-box"
+  >
+    <input
+      class="jsx-afdd1919b9d522ba"
+      data-testid="search-input"
+      placeholder="search wikipedia here"
+      value=""
+    />
+  </div>
+</div>
+`;
