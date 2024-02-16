@@ -1,7 +1,11 @@
-import React from "react";
+import React, { type ReactNode } from "react";
 import listStyles from "./List.style";
 
-const ListItem = ({ children }) => {
+type ListItemProps = {
+  children: ReactNode;
+};
+
+const ListItem = ({ children }: ListItemProps) => {
   return (
     <>
       <div className="list-item">{children}</div>
